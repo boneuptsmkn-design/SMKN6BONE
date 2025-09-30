@@ -1,0 +1,160 @@
+body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #71a5d6, #6d9fce);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin: 8px 0 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      text-decoration: none;
+      color: #3e58ad;
+      padding: 14px 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #5c7eec;
+      color: white;
+      border-radius: 5px;
+    }
+
+    .breaking {
+      background: #58c3c7;
+      padding: 10px;
+      font-weight: bold;
+      text-align: center;
+      color: #222;
+      font-size: 14px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 15px;
+    }
+
+    .breadcrumb {
+      font-size: 14px;
+      margin-bottom: 15px;
+      color: gray;
+    }
+    .breadcrumb a {
+      color: #28a745;
+      text-decoration: none;
+    }
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    article {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    article h2 {
+      font-size: 24px;
+      color: #8ed5eb;
+      margin-top: 0;
+    }
+    .meta {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    article p {
+      line-height: 1.7;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    .share {
+      margin-top: 20px;
+    }
+    .share button {
+      border: none;
+      padding: 12px;
+      margin: 5px;
+      border-radius: 50%;
+      cursor: pointer;
+      color: white;
+      font-weight: bold;
+      width: 45px;
+      height: 45px;
+    }
+    .fb { background: #1877f2; }
+    .wa { background: #25d366; }
+    .tw { background: black; }
+    .ig { background: #e1306c; }
+
+    .related {
+      margin-top: 30px;
+    }
+    .related h3 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #333;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    
+    .card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h4 {
+      margin: 0;
+      color: #c70039;
+    }
+    .card p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 20px; }
+      nav a { padding: 10px; font-size: 14px; }
+      article h2 { font-size: 20px; }
+    }
